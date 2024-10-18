@@ -1,6 +1,14 @@
 #Harjutus4
 
 #1.Aia pikkus
+try: 
+    failisuurus = int(input("Sisesta faili suurus (MB): "))
+    downKiirus = int(input("Sisesta allalaadimise kiirus (MB/s): "))
+    aeg = failisuurus / downKiirus
+    print(f"Alla laadimiseks kulub {aeg:0.2f} sekundit.")
+except:
+    print("Sisestasid valesti")
+
 """
 a = int(input("Sisesta külg 1 : "))
 b = int(input("Sisesta külg 2 : "))
