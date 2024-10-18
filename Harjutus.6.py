@@ -14,7 +14,7 @@ print(x)
 turtle.forward(x*kordaja)
 turtle.left(90)
 turtle.forward(h*kordaja)
-turtle.left(180-37)
+turtle.left(180-(180-90-53))
 turtle.forward(c*kordaja)
 
 
