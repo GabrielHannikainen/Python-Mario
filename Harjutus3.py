@@ -28,7 +28,7 @@ mark, mudel = "bmw", "118"
 aasta = 1997
 hind = 136,60
 auto = mark+" "+mudel
-print(“Minu unistuste auto on",auto,"aastast",aasta,", mille hind on",hind," eurot.”)
+print("Minu unistuste auto on",auto,"aastast",aasta,", mille hind on",hind," eurot.")
 """
 
 
@@ -37,9 +37,15 @@ raamatu_pealkiri = "Kevade"
 raamatu_autor = "Oskar Luts"
 raamat = raamatu_pealkiri+" "+raamatu_autor
 lehekylgede_arv = 360
-hindamisskoor = 9,8
+hindamisskoor = 9.8
+print(f"Raamatu {raamat} lehekülgede arv on {lehekylgede_arv} ja hindamisskoor on {hindamisskoor}.")
 
 
 
 
 #ülesanne 3.2 Ostunimekiri
+raamatu_pealkiri = "Kevade"
+raamatu_autor = "Oskar Luts"
+raamat = raamatu_pealkiri+" "+raamatu_autor
+lehekylgede_arv = 360
+hindamisskoor = 9.8
