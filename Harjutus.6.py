@@ -20,3 +20,17 @@ turtle.forward(c*kordaja)
 
 
 turtle.done()
+
+
+
+7. Eurokalkulaator - koosta programm, mis kalkuleerib valuuta vastavalt kasutaja soovile EUR->EEK vĆµi EEK->EUR.
+	kuvatakse korrektne arusaadav kĆ¼simus ja vastus - 1p
+	kuvatakse veateade, kui kasutaja tegi valiku valesti - 1p
+	kĆ¼sitakse valuuta kogust ja tehakse arvutused - 2p
+	kood kommenteeritud - 1p
+	
+8. TĆ¤ringud
+	kuvatakse korrektne arusaadav kĆ¼simus ja hiljem vastus - 1p
+	kasutaja vĆµistleb kahe tĆ¤ringuga arvuti vastu - 1p
+	kasutaja teeb pakkumise ning suurima tĆ¤ringupunktisumma vĆµitja saab laual oleva raha endale - 2p
+	kood kommenteeritud - 1p
