@@ -20,3 +20,5 @@ turtle.forward(c*kordaja)
 
 
 turtle.done()
+
+
