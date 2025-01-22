@@ -5,7 +5,7 @@
 
 
 import json
-import requests  # Raamatukogu HTTP-päringute jaoks
+import requests
 
 url = "https://dummyjson.com/carts"
 response = requests.get(url)
@@ -24,7 +24,7 @@ for cart in data['carts']:
             
 if results:
     print("\nLeitud tulemused:")
-    for result in results[:3]:  # Kuvab kuni 3 tulemust
+    for result in results[:3]:
         print(f"Toote nimi: {result['Title']}")
         print(f"Hind: {result['Price']} €")
         print(f"Kogus: {result['Quantity']}")
